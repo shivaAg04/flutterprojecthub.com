@@ -29,7 +29,53 @@ final List<Project> companyProjects = [
     creatorName: "CRED Team",
     companyLink: "https://cred.club",
   ),
+  Project(
+    name: "Zomato",
+    description: "Food delivery and restaurant discovery app",
+    androidLink: "https://play.google.com/store/apps/details?id=com.application.zomato",
+    iosLink: "https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896",
+    repoLink: "https://github.com/example/zomato-clone",
+    creatorName: "Zomato Dev Team",
+    companyLink: "https://www.zomato.com",
+  ),
+  Project(
+    name: "Swiggy",
+    description: "India's largest food delivery app",
+    androidLink: "https://play.google.com/store/apps/details?id=in.swiggy.android",
+    iosLink: "https://apps.apple.com/in/app/swiggy-food-grocery-delivery/id989540920",
+    repoLink: "https://github.com/example/swiggy-clone",
+    creatorName: "Swiggy Mobile Team",
+    companyLink: "https://www.swiggy.com",
+  ),
+  Project(
+    name: "Groww",
+    description: "Investment app for stocks, mutual funds, and more",
+    androidLink: "https://play.google.com/store/apps/details?id=com.nextbillion.groww",
+    iosLink: "https://apps.apple.com/in/app/groww/id1404871707",
+    repoLink: "https://github.com/example/groww-clone",
+    creatorName: "Groww Developers",
+    companyLink: "https://groww.in",
+  ),
+  Project(
+    name: "Dream11",
+    description: "Fantasy sports platform",
+    androidLink: "https://www.dream11.com/download-app",
+    iosLink: "https://apps.apple.com/in/app/dream11-fantasy-cricket/id1072752802",
+    repoLink: "https://github.com/example/dream11-clone",
+    creatorName: "Dream11 Engineering",
+    companyLink: "https://www.dream11.com",
+  ),
+  Project(
+    name: "CureFit",
+    description: "Fitness and wellness platform",
+    androidLink: "https://play.google.com/store/apps/details?id=fit.cure.android",
+    iosLink: "https://apps.apple.com/in/app/cult-fit-fitness-gym-diet/id1217794588",
+    repoLink: "https://github.com/example/curefit-clone",
+    creatorName: "CureFit Tech Team",
+    companyLink: "https://www.cult.fit",
+  ),
 ];
+
 final List<Project> personalProjects = [
   Project(
     name: "My Portfolio App",
