@@ -1,4 +1,4 @@
-class Project {
+class ProjectDataModel {
   final String name;
   final String description;
   final String androidLink;
@@ -8,7 +8,7 @@ class Project {
   final String? companyLink;
   final String? creatorLinkedIn;
 
-  Project({
+  ProjectDataModel({
     required this.name,
     required this.description,
     required this.androidLink,
