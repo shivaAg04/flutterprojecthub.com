@@ -1,5 +1,7 @@
 import 'dart:io';
-import 'project_data.dart';
+import 'project_data_model.dart';
+import 'company_app.dart';
+import 'personal_app.dart';
 
 void main() {
   final buffer = StringBuffer();
@@ -9,7 +11,6 @@ void main() {
 
   buffer.writeln('## 🏢 Company Projects\n');
 
-  // 🔤 Sort company projects alphabetically
   final sortedCompany = [...companyProjects]..sort((a, b) => a.name.compareTo(b.name));
   for (var project in sortedCompany) {
     buffer.writeln('- **${project.name}**');
@@ -25,7 +26,6 @@ void main() {
 
   buffer.writeln('## 👨‍💻 Personal Projects\n');
 
-  // 🔤 Sort personal projects alphabetically
   final sortedPersonal = [...personalProjects]..sort((a, b) => a.name.compareTo(b.name));
   for (var project in sortedPersonal) {
     buffer.writeln('- **${project.name}**');
