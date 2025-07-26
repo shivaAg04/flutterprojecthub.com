@@ -8,6 +8,7 @@ class FlutterProject {
   final String creatorProfile;
   final String type;
 
+  
   FlutterProject({
     required this.name,
     required this.description,
