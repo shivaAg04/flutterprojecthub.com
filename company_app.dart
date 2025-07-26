@@ -1,8 +1,5 @@
 import 'project_data_model.dart';
 
- 
- 
-
 final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: '5paisa',
