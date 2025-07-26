@@ -20,7 +20,7 @@ jobs:
         uses: dart-lang/setup-dart@v1
 
       - name: Run Dart Script
-        run: dart generate_readme.dart
+        run: dart lib/generate_readme.dart
 
       - name: Commit and Push README.md
         run: |
