@@ -11,7 +11,7 @@ final List<ProjectDataModel> personalProjects = [
     creatorLinkedIn: "https://www.linkedin.com/in/shivaag04/",
   ),
   ProjectDataModel(
-    name: "Expense Trackerff",
+    name: "Expense Trackerf",
     description: "Track daily expenses with intuitive charts and sync features.",
     androidLink: "https://play.google.com/store/apps/details?id=com.expense.tracker",
     iosLink: "https://apps.apple.com/app/id1234567891",
