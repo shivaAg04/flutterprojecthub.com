@@ -7,7 +7,6 @@ Curated list of open-source Flutter apps for learning and inspiration.
 - **CRED**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.cred.club)
   - 🍎 [iOS](https://apps.apple.com/in/app/cred/id1424942477)
-  - 💻 [Repo](https://github.com/example/cred)
   - 👤 Creator: CRED Team
   - 🌐 [Company Website](https://cred.club)
   - 📝 Description: Credit card management app
@@ -15,7 +14,6 @@ Curated list of open-source Flutter apps for learning and inspiration.
 - **Dream11**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.dream11.fantasy.cricket.app)
   - 🍎 [iOS](https://apps.apple.com/in/app/dream11/id1234567890)
-  - 💻 [Repo](https://github.com/example/dream11)
   - 👤 Creator: Dream Sports Team
   - 🌐 [Company Website](https://www.dream11.com)
   - 📝 Description: Fantasy sports platform
