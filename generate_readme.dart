@@ -7,8 +7,12 @@ void main() {
   buffer.writeln('# 🚀 Flutter Projects Showcase\n');
   buffer.writeln('Curated list of open-source Flutter apps for learning and inspiration.\n');
 
-  buffer.writeln('## 🏢 Company Projects\n');
-  for (var project in companyProjects) {
+  // Sort company projects by name
+  final sortedCompanyProjects = [...companyProjects]..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+  final sortedPersonalProjects = [...personalProjects]..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+
+  buffer.writeln('## 🏢 Company Projects (A-Z)\n');
+  for (var project in sortedCompanyProjects) {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
@@ -17,8 +21,8 @@ void main() {
     buffer.writeln('  - 📝 Description: ${project.description}\n');
   }
 
-  buffer.writeln('## 👨‍💻 Personal Projects\n');
-  for (var project in personalProjects) {
+  buffer.writeln('## 👨‍💻 Personal Projects (A-Z)\n');
+  for (var project in sortedPersonalProjects) {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
@@ -30,5 +34,5 @@ void main() {
   final file = File('README.md');
   file.writeAsStringSync(buffer.toString());
 
-  print('✅ README.md generated successfully.');
+  print('✅ README.md generated and sorted A-Z successfully.');
 }
