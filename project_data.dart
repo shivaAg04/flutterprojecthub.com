@@ -1,53 +1,40 @@
-class FlutterProject {
+
+class Project {
   final String name;
   final String description;
-  final String androidUrl;
-  final String iosUrl;
-  final String sourceCode;
+  final String androidLink;
+  final String iosLink;
+  final String repoLink;
   final String creatorName;
-  final String creatorProfile;
-  final String type;
 
-  
-  FlutterProject({
+  Project({
     required this.name,
     required this.description,
-    required this.androidUrl,
-    required this.iosUrl,
-    required this.sourceCode,
+    required this.androidLink,
+    required this.iosLink,
+    required this.repoLink,
     required this.creatorName,
-    required this.creatorProfile,
-    required this.type,
   });
-
-  String toMarkdown() {
-    return '''
-### \$name
-→ \$description  
-📱 [Android](\$androidUrl) • 🍎 [iOS](\$iosUrl) • 💻 [Source Code](\$sourceCode) • 👤 [\$creatorName](\$creatorProfile)
-''';
-  }
 }
 
-final List<FlutterProject> flutterProjects = [
-  FlutterProject(
-    name: 'CRED',
-    description: 'Pay credit card bills and earn rewards.',
-    androidUrl: 'https://play.google.com/store/apps/details?id=com.cred.club',
-    iosUrl: 'https://apps.apple.com/in/app/cred/id1189012039',
-    sourceCode: '',
-    creatorName: 'CRED Team',
-    creatorProfile: 'https://www.cred.club',
-    type: 'company',
+final List<Project> companyProjects = [
+  Project(
+    name: "CRED",
+    description: "Credit card management app",
+    androidLink: "https://play.google.com/store/apps/details?id=com.cred.club",
+    iosLink: "https://apps.apple.com/in/app/cred/id1424942477",
+    repoLink: "https://github.com/example/cred",
+    creatorName: "CRED Team",
   ),
-  FlutterProject(
-    name: 'Flutter Portfolio',
-    description: 'Personal portfolio app built with Flutter.',
-    androidUrl: 'https://example.com/apk',
-    iosUrl: '',
-    sourceCode: 'https://github.com/DevStack06/Flutter-Portfolio-App',
-    creatorName: 'DevStack06',
-    creatorProfile: 'https://linkedin.com/in/devstack06',
-    type: 'personal',
+];
+
+final List<Project> personalProjects = [
+  Project(
+    name: "My Portfolio App",
+    description: "A beautiful personal portfolio built in Flutter.",
+    androidLink: "https://play.google.com/store/apps/details?id=com.myportfolio.app",
+    iosLink: "https://apps.apple.com/app/id1234567890",
+    repoLink: "https://github.com/username/portfolio",
+    creatorName: "Shiva Agrahari",
   ),
 ];
