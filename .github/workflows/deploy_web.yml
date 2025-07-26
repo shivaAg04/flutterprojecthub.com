@@ -3,7 +3,7 @@ name: Deploy Flutter Web to GitHub Pages
 on:
   push:
     branches:
-      - main # Or your production branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -16,13 +16,13 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.16.5' # Update this to match your Flutter version
+          flutter-version: '3.16.5'
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Build Flutter web
-        run: flutter build web --release
+        run: flutter build web --release --base-href="/flutterprojecthub.com/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
