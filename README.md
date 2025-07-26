@@ -11,26 +11,246 @@ Curated list of open-source Flutter apps for learning and inspiration.
 
 ---
 
+### <a name="company-5"></a>5
+
+- **5paisa**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: 5paisa
+  - 📝 Description: Stock trading and investment platform.
+
+
+---
+
+### <a name="company-a"></a>A
+
+- **altGraaf**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: altGraaf
+  - 📝 Description: Alternative investment platform.
+
+- **Axis Mobile**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Axis Bank
+  - 📝 Description: Banking app by Axis Bank.
+
+- **Axis Open Mobile App**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Axis Bank
+  - 📝 Description: Open banking app experience by Axis.
+
+
+---
+
 ### <a name="company-c"></a>C
 
+- **Canara AI1**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Canara Bank
+  - 📝 Description: All-in-one banking app by Canara Bank.
+
 - **CRED**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.cred.club)
-  - 🍎 [iOS](https://apps.apple.com/in/app/cred/id1424942477)
-  - 👤 Creator: CRED Team
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: CRED
   - 🌐 [Company Website](https://cred.club)
-  - 📝 Description: Credit card management app
+  - 📝 Description: Credit card bill payments and rewards app.
 
 
 ---
 
 ### <a name="company-d"></a>D
 
-- **Dream11**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.dream11.fantasy.cricket.app)
-  - 🍎 [iOS](https://apps.apple.com/in/app/dream11/id1234567890)
-  - 👤 Creator: Dream Sports Team
-  - 🌐 [Company Website](https://www.dream11.com)
-  - 📝 Description: Fantasy sports platform
+- **Dhan**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Dhan HQ
+  - 📝 Description: Stock trading and investing app.
+
+
+---
+
+### <a name="company-f"></a>F
+
+- **Fampay**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Fampay
+  - 📝 Description: Payments app for teens.
+
+- **Fyers**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Fyers
+  - 📝 Description: Trading and investment platform.
+
+
+---
+
+### <a name="company-h"></a>H
+
+- **Hash For Gamers**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Hash
+  - 📝 Description: Gaming finance and tracking app.
+
+- **HDFC Payzapp**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: HDFC Bank
+  - 📝 Description: Digital payments and recharge app by HDFC.
+
+- **HDFC SKY**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: HDFC Securities
+  - 📝 Description: Trading and investing app.
+
+
+---
+
+### <a name="company-i"></a>I
+
+- **ICICIDirect**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: ICICI Securities
+  - 📝 Description: Investment and trading platform.
+
+- **IDFC FIRST Bank**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: IDFC FIRST
+  - 📝 Description: Digital banking app.
+
+- **INDmoney**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: INDmoney
+  - 📝 Description: Track and manage finances, investments, and credit.
+
+
+---
+
+### <a name="company-j"></a>J
+
+- **Jiraaf**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Jiraaf
+  - 📝 Description: Fixed income investment platform.
+
+
+---
+
+### <a name="company-k"></a>K
+
+- **Kotak Neo**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Kotak Securities
+  - 📝 Description: Mobile trading and investment app.
+
+
+---
+
+### <a name="company-m"></a>M
+
+- **Motilal Oswal Riise**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Motilal Oswal
+  - 📝 Description: Investment app by Motilal Oswal.
+
+- **My Adani Gas**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Adani
+  - 📝 Description: Gas and utility management app.
+
+
+---
+
+### <a name="company-n"></a>N
+
+- **N J Ewealth**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: NJ India Invest
+  - 📝 Description: Wealth management platform.
+
+- **Nothing X**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Nothing
+  - 📝 Description: Companion app for Nothing audio products.
+
+
+---
+
+### <a name="company-p"></a>P
+
+- **Post Office**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: India Post
+  - 📝 Description: India Post banking and tracking app.
+
+
+---
+
+### <a name="company-r"></a>R
+
+- **Rail One**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: CRIS
+  - 📝 Description: Railway ticket booking and tracking app.
+
+- **Rupeezy**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Rupeezy
+  - 📝 Description: Trading and investing platform.
+
+
+---
+
+### <a name="company-s"></a>S
+
+- **SBI Securities**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: SBI Capital
+  - 📝 Description: Trading platform by SBI.
+
+- **Sharekhan**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Sharekhan
+  - 📝 Description: Investment and trading platform.
+
+- **Slice**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: Slice
+  - 📝 Description: Credit card and payments app for millennials.
+
+
+---
+
+### <a name="company-t"></a>T
+
+- **Timepay**
+  - 📱 [Android]()
+  - 🍎 [iOS]()
+  - 👤 Creator: TimePay
+  - 📝 Description: Payments and finance management app.
 
 
 
