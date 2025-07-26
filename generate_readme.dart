@@ -16,7 +16,9 @@ void main() {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
-    buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    if (project.repoLink != null && project.repoLink!.isNotEmpty) {
+      buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    }
     buffer.writeln('  - 👤 Creator: ${project.creatorName}');
     if (project.companyLink != null && project.companyLink!.isNotEmpty) {
       buffer.writeln('  - 🌐 [Company Website](${project.companyLink})');
@@ -31,7 +33,9 @@ void main() {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
-    buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    if (project.repoLink != null && project.repoLink!.isNotEmpty) {
+      buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    }
     buffer.writeln('  - 👤 Creator: ${project.creatorName}');
     if (project.creatorLinkedIn != null && project.creatorLinkedIn!.isNotEmpty) {
       buffer.writeln('  - 🔗 [Creator LinkedIn](${project.creatorLinkedIn})');
