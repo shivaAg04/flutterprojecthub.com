@@ -19,7 +19,7 @@ jobs:
         run: dart pub get
 
       - name: Run README Generator
-        run: dart lib/scripts/generate_readme.dart
+        run: dart lib/generate_readme.dart
 
       - name: Commit and Push README
         run: |
