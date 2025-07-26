@@ -19,7 +19,7 @@ class ProjectShowcaseApp extends StatelessWidget {
           child: SizedBox(
             width: maxWidth,
             child: MaterialApp(
-              title: 'Open Source Projects',
+              title: 'Open Source Projects ',
               theme: ThemeData(
                 primarySwatch: Colors.deepPurple,
               ),
