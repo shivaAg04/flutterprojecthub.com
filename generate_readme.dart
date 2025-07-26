@@ -8,7 +8,10 @@ void main() {
   buffer.writeln('Curated list of open-source Flutter apps for learning and inspiration.\n');
 
   buffer.writeln('## 🏢 Company Projects\n');
-  for (var project in companyProjects) {
+
+  // 🔤 Sort company projects alphabetically
+  final sortedCompany = [...companyProjects]..sort((a, b) => a.name.compareTo(b.name));
+  for (var project in sortedCompany) {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
@@ -21,7 +24,10 @@ void main() {
   }
 
   buffer.writeln('## 👨‍💻 Personal Projects\n');
-  for (var project in personalProjects) {
+
+  // 🔤 Sort personal projects alphabetically
+  final sortedPersonal = [...personalProjects]..sort((a, b) => a.name.compareTo(b.name));
+  for (var project in sortedPersonal) {
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
@@ -36,5 +42,5 @@ void main() {
   final file = File('README.md');
   file.writeAsStringSync(buffer.toString());
 
-  print('✅ README.md generated successfully.');
+  print('✅ README.md generated successfully in alphabetical order.');
 }
