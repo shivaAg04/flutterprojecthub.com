@@ -2,7 +2,7 @@
 
 Curated list of open-source Flutter apps for learning and inspiration.
 
-## 🏢 Company Projects
+## 🏢 Company Projects (A-Z)
 
 - **CRED**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.cred.club)
@@ -11,7 +11,7 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 👤 Creator: CRED Team
   - 📝 Description: Credit card management app
 
-## 👨‍💻 Personal Projects
+## 👨‍💻 Personal Projects (A-Z)
 
 - **My Portfolio App**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.myportfolio.app)
