@@ -29,8 +29,12 @@ void main() {
       buffer.writeln('### <a name="company-${letter.toLowerCase()}"></a>$letter\n');
     }
     buffer.writeln('- **${project.name}**');
-    buffer.writeln('  - 📱 [Android](${project.androidLink})');
-    buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    if (project.androidLink.isNotEmpty) {
+      buffer.writeln('  - 📱 [Android](${project.androidLink})');
+    }
+    if (project.iosLink.isNotEmpty) {
+      buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    }
     if (project.repoLink != null && project.repoLink!.isNotEmpty) {
       buffer.writeln('  - 💻 [Repo](${project.repoLink})');
     }
@@ -61,8 +65,12 @@ void main() {
       buffer.writeln('### <a name="personal-${letter.toLowerCase()}"></a>$letter\n');
     }
     buffer.writeln('- **${project.name}**');
-    buffer.writeln('  - 📱 [Android](${project.androidLink})');
-    buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    if (project.androidLink.isNotEmpty) {
+      buffer.writeln('  - 📱 [Android](${project.androidLink})');
+    }
+    if (project.iosLink.isNotEmpty) {
+      buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    }
     if (project.repoLink != null && project.repoLink!.isNotEmpty) {
       buffer.writeln('  - 💻 [Repo](${project.repoLink})');
     }
@@ -76,5 +84,5 @@ void main() {
   final file = File('README.md');
   file.writeAsStringSync(buffer.toString());
 
-  print('✅ README.md with separate A–Z navigation for company & personal projects generated successfully.');
+  print('✅ README.md with filtered fields generated successfully.');
 }
