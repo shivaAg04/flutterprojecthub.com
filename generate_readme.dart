@@ -7,12 +7,24 @@ void main() {
   buffer.writeln('# 🚀 Flutter Projects Showcase\n');
   buffer.writeln('Curated list of open-source Flutter apps for learning and inspiration.\n');
 
-  for (var project in projects) {
-    buffer.writeln('## ${project['name']}');
-    buffer.writeln('- 🌐 **Live**: [${project['live']}](${project['live']})');
-    buffer.writeln('- 📁 **GitHub**: [${project['github']}](${project['github']})');
-    buffer.writeln('- 🛠️ **Tech Stack**: ${project['stack']}');
-    buffer.writeln('- 📝 **Description**: ${project['description']}\n');
+  buffer.writeln('## 🏢 Company Projects\n');
+  for (var project in companyProjects) {
+    buffer.writeln('- **${project.name}**');
+    buffer.writeln('  - 📱 [Android](${project.androidLink})');
+    buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    buffer.writeln('  - 👤 Creator: ${project.creatorName}');
+    buffer.writeln('  - 📝 Description: ${project.description}\n');
+  }
+
+  buffer.writeln('## 👨‍💻 Personal Projects\n');
+  for (var project in personalProjects) {
+    buffer.writeln('- **${project.name}**');
+    buffer.writeln('  - 📱 [Android](${project.androidLink})');
+    buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
+    buffer.writeln('  - 💻 [Repo](${project.repoLink})');
+    buffer.writeln('  - 👤 Creator: ${project.creatorName}');
+    buffer.writeln('  - 📝 Description: ${project.description}\n');
   }
 
   final file = File('README.md');
