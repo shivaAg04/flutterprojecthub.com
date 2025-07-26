@@ -12,29 +12,13 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 🌐 [Company Website](https://cred.club)
   - 📝 Description: Credit card management app
 
-- **Zomato**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.application.zomato)
-  - 🍎 [iOS](https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896)
-  - 💻 [Repo](https://github.com/example/zomato-clone)
-  - 👤 Creator: Zomato Dev Team
-  - 🌐 [Company Website](https://www.zomato.com)
-  - 📝 Description: Food delivery and restaurant discovery app
-
-- **Swiggy**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=in.swiggy.android)
-  - 🍎 [iOS](https://apps.apple.com/in/app/swiggy-food-grocery-delivery/id989540920)
-  - 💻 [Repo](https://github.com/example/swiggy-clone)
-  - 👤 Creator: Swiggy Mobile Team
-  - 🌐 [Company Website](https://www.swiggy.com)
-  - 📝 Description: India's largest food delivery app
-
-- **Groww**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.nextbillion.groww)
-  - 🍎 [iOS](https://apps.apple.com/in/app/groww/id1404871707)
-  - 💻 [Repo](https://github.com/example/groww-clone)
-  - 👤 Creator: Groww Developers
-  - 🌐 [Company Website](https://groww.in)
-  - 📝 Description: Investment app for stocks, mutual funds, and more
+- **CureFit**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=fit.cure.android)
+  - 🍎 [iOS](https://apps.apple.com/in/app/cult-fit-fitness-gym-diet/id1217794588)
+  - 💻 [Repo](https://github.com/example/curefit-clone)
+  - 👤 Creator: CureFit Tech Team
+  - 🌐 [Company Website](https://www.cult.fit)
+  - 📝 Description: Fitness and wellness platform
 
 - **Dream11**
   - 📱 [Android](https://www.dream11.com/download-app)
@@ -44,13 +28,29 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 🌐 [Company Website](https://www.dream11.com)
   - 📝 Description: Fantasy sports platform
 
-- **CureFit**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=fit.cure.android)
-  - 🍎 [iOS](https://apps.apple.com/in/app/cult-fit-fitness-gym-diet/id1217794588)
-  - 💻 [Repo](https://github.com/example/curefit-clone)
-  - 👤 Creator: CureFit Tech Team
-  - 🌐 [Company Website](https://www.cult.fit)
-  - 📝 Description: Fitness and wellness platform
+- **Groww**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.nextbillion.groww)
+  - 🍎 [iOS](https://apps.apple.com/in/app/groww/id1404871707)
+  - 💻 [Repo](https://github.com/example/groww-clone)
+  - 👤 Creator: Groww Developers
+  - 🌐 [Company Website](https://groww.in)
+  - 📝 Description: Investment app for stocks, mutual funds, and more
+
+- **Swiggy**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=in.swiggy.android)
+  - 🍎 [iOS](https://apps.apple.com/in/app/swiggy-food-grocery-delivery/id989540920)
+  - 💻 [Repo](https://github.com/example/swiggy-clone)
+  - 👤 Creator: Swiggy Mobile Team
+  - 🌐 [Company Website](https://www.swiggy.com)
+  - 📝 Description: India's largest food delivery app
+
+- **Zomato**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.application.zomato)
+  - 🍎 [iOS](https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896)
+  - 💻 [Repo](https://github.com/example/zomato-clone)
+  - 👤 Creator: Zomato Dev Team
+  - 🌐 [Company Website](https://www.zomato.com)
+  - 📝 Description: Food delivery and restaurant discovery app
 
 ## 👨‍💻 Personal Projects
 
