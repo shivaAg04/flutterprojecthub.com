@@ -1,4 +1,3 @@
-
 class Project {
   final String name;
   final String description;
@@ -6,6 +5,8 @@ class Project {
   final String iosLink;
   final String repoLink;
   final String creatorName;
+  final String? companyLink;       // Optional: For company projects
+  final String? creatorLinkedIn;   // Optional: For personal projects
 
   Project({
     required this.name,
@@ -14,9 +15,10 @@ class Project {
     required this.iosLink,
     required this.repoLink,
     required this.creatorName,
+    this.companyLink,
+    this.creatorLinkedIn,
   });
 }
-
 final List<Project> companyProjects = [
   Project(
     name: "CRED",
@@ -25,9 +27,9 @@ final List<Project> companyProjects = [
     iosLink: "https://apps.apple.com/in/app/cred/id1424942477",
     repoLink: "https://github.com/example/cred",
     creatorName: "CRED Team",
+    companyLink: "https://cred.club",
   ),
 ];
-
 final List<Project> personalProjects = [
   Project(
     name: "My Portfolio App",
@@ -36,5 +38,6 @@ final List<Project> personalProjects = [
     iosLink: "https://apps.apple.com/app/id1234567890",
     repoLink: "https://github.com/username/portfolio",
     creatorName: "Shiva Agrahari",
+    creatorLinkedIn: "https://www.linkedin.com/in/shivaag04",
   ),
 ];
