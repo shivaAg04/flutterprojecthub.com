@@ -9,10 +9,28 @@ void main() {
   buffer.writeln('# 🚀 Flutter Projects Showcase\n');
   buffer.writeln('Curated list of open-source Flutter apps for learning and inspiration.\n');
 
-  buffer.writeln('## 🏢 Company Projects\n');
+  // Add Alphabetical Index (A-Z)
+  buffer.writeln('### 🔤 Jump to:\n');
+  for (var letter in List.generate(26, (i) => String.fromCharCode(65 + i))) {
+    buffer.write('[${letter}](#${letter.toLowerCase()}) ');
+  }
+  buffer.writeln('\n');
 
-  final sortedCompany = [...companyProjects]..sort((a, b) => a.name.compareTo(b.name));
-  for (var project in sortedCompany) {
+  // Merge and sort all projects alphabetically
+  final allProjects = [...companyProjects, ...personalProjects];
+  allProjects.sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+
+  String currentLetter = '';
+
+  for (var project in allProjects) {
+    final firstLetter = project.name[0].toUpperCase();
+
+    if (firstLetter != currentLetter) {
+      currentLetter = firstLetter;
+      buffer.writeln('\n---\n');
+      buffer.writeln('## <a name="${currentLetter.toLowerCase()}"></a>$currentLetter\n');
+    }
+
     buffer.writeln('- **${project.name}**');
     buffer.writeln('  - 📱 [Android](${project.androidLink})');
     buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
@@ -22,22 +40,7 @@ void main() {
     buffer.writeln('  - 👤 Creator: ${project.creatorName}');
     if (project.companyLink != null && project.companyLink!.isNotEmpty) {
       buffer.writeln('  - 🌐 [Company Website](${project.companyLink})');
-    }
-    buffer.writeln('  - 📝 Description: ${project.description}\n');
-  }
-
-  buffer.writeln('## 👨‍💻 Personal Projects\n');
-
-  final sortedPersonal = [...personalProjects]..sort((a, b) => a.name.compareTo(b.name));
-  for (var project in sortedPersonal) {
-    buffer.writeln('- **${project.name}**');
-    buffer.writeln('  - 📱 [Android](${project.androidLink})');
-    buffer.writeln('  - 🍎 [iOS](${project.iosLink})');
-    if (project.repoLink != null && project.repoLink!.isNotEmpty) {
-      buffer.writeln('  - 💻 [Repo](${project.repoLink})');
-    }
-    buffer.writeln('  - 👤 Creator: ${project.creatorName}');
-    if (project.creatorLinkedIn != null && project.creatorLinkedIn!.isNotEmpty) {
+    } else if (project.creatorLinkedIn != null && project.creatorLinkedIn!.isNotEmpty) {
       buffer.writeln('  - 🔗 [Creator LinkedIn](${project.creatorLinkedIn})');
     }
     buffer.writeln('  - 📝 Description: ${project.description}\n');
@@ -46,5 +49,5 @@ void main() {
   final file = File('README.md');
   file.writeAsStringSync(buffer.toString());
 
-  print('✅ README.md generated successfully in alphabetical order.');
+  print('✅ README.md with A-Z navigation generated successfully.');
 }
