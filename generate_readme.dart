@@ -1,30 +1,29 @@
+name: Generate README
 
-import 'project_data.dart';
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
-void main() {
-  final buffer = StringBuffer();
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-  buffer.writeln('# 🚀 Awesome Flutter Projects (Auto-Generated)\n');
-  buffer.writeln('_This README is generated from Dart source._\n');
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  buffer.writeln('## 🏢 Company Apps\n');
-  for (var project in companyProjects) {
-    buffer.writeln(generateMarkdown(project));
-  }
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
 
-  buffer.writeln('\n## 👨‍💻 Personal Projects\n');
-  for (var project in personalProjects) {
-    buffer.writeln(generateMarkdown(project));
-  }
+      - name: Run Dart script
+        run: dart run generate_readme.dart
 
-  final file = File('README.md');
-  file.writeAsStringSync(buffer.toString());
-}
-
-String generateMarkdown(Project project) {
-  return '''
-### \${project.name}
-→ \${project.description}  
-📱 [Android](\${project.androidLink}) · 🍎 [iOS](\${project.iosLink}) · 💻 [Source Code](\${project.repoLink}) · 👤 \${project.creatorName}
-''';
-}
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "🔄 Auto-update README.md" || echo "No changes to commit"
+          git push
