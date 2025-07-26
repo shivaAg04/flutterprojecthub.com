@@ -3,7 +3,7 @@ class Project {
   final String description;
   final String androidLink;
   final String iosLink;
-  final String repoLink;
+  final String? repoLink; // Made nullable
   final String creatorName;
   final String? companyLink;
   final String? creatorLinkedIn;
@@ -13,7 +13,7 @@ class Project {
     required this.description,
     required this.androidLink,
     required this.iosLink,
-    required this.repoLink,
+    this.repoLink, // No longer required
     required this.creatorName,
     this.companyLink,
     this.creatorLinkedIn,
