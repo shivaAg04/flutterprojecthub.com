@@ -209,7 +209,7 @@ Curated list of open-source Flutter apps for learning and inspiration.
 
 ### <a name="personal-e"></a>E
 
-- **Expense Tracker**
+- **Expense Trackerff**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.expense.tracker)
   - 🍎 [iOS](https://apps.apple.com/app/id1234567891)
   - 💻 [Repo](https://github.com/username/expense-tracker)
