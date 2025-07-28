@@ -14,7 +14,7 @@ final List<ProjectDataModel> companyProjects = [
     repoLink: '',
     creatorName: '5paisa',
     companyLink: '',
-    description: 'Stock trading and investment platform.',
+    description: 'Stock trading and investment platform...',
   ),
   ProjectDataModel(
     name: 'altGraaf',
