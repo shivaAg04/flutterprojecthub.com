@@ -1,7 +1,10 @@
+// ignore_for_file: unnecessary_brace_in_string_interps
+
+import 'dart:developer';
 import 'dart:io';
 
-import 'company_app.dart';
-import 'personal_app.dart';
+import '../data/company_app.dart';
+import '../data/personal_app.dart';
 
 void main() {
   final buffer = StringBuffer();
@@ -16,7 +19,7 @@ void main() {
   // A-Z Jump Menu
   buffer.writeln('### 🔤 Jump to:\n');
   for (var letter in List.generate(26, (i) => String.fromCharCode(65 + i))) {
-    buffer.write('[${letter}](#company-${letter.toLowerCase()}) ');
+    buffer.write('[$letter](#company-${letter.toLowerCase()}) ');
   }
   buffer.writeln('\n');
 

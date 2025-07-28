@@ -1,3 +1,5 @@
+import '../core/app_enum.dart';
+
 /// A model representing a Flutter project showcased in the repository.
 /// This class holds common fields for both company-based and personal projects.
 class ProjectDataModel {
@@ -25,6 +27,12 @@ class ProjectDataModel {
   /// (Optional) Link to the creator's LinkedIn profile for attribution or networking.
   final String? creatorLinkedIn;
 
+  /// A thumbnail or banner image URL to visually represent the app/project.
+  final String? imageUrl;
+
+  /// The industry or category the app/project belongs to.
+  final IndustryCategory industry;
+
   /// Constructor to initialize all the fields of the ProjectDataModel.
   ProjectDataModel({
     required this.name,
@@ -35,5 +43,7 @@ class ProjectDataModel {
     required this.creatorName,
     this.companyLink,
     this.creatorLinkedIn,
+    this.imageUrl,
+    required this.industry,
   });
 }

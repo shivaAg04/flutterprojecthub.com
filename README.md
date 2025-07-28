@@ -14,6 +14,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-5"></a>5
 
 - **5paisa**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.fivepaisa.trade)
+  - 🍎 [iOS](https://apps.apple.com/in/app/5paisa-share-market-trading/id1075900182)
   - 👤 Creator: 5paisa
   - 📝 Description: Stock trading and investment platform.
 
@@ -23,16 +25,15 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-a"></a>A
 
 - **altGraaf**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.app.altgraaf&hl=en_IN)
   - 👤 Creator: altGraaf
   - 📝 Description: Alternative investment platform.
 
 - **Axis Mobile**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.axis.mobile)
+  - 🍎 [iOS](https://apps.apple.com/in/app/axis-mobile/id590442823)
   - 👤 Creator: Axis Bank
   - 📝 Description: Banking app by Axis Bank.
-
-- **Axis Open Mobile App**
-  - 👤 Creator: Axis Bank
-  - 📝 Description: Open banking app experience by Axis.
 
 
 ---
@@ -40,10 +41,14 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-c"></a>C
 
 - **Canara AI1**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.canarabank.mobility&hl=en_IN)
+  - 🍎 [iOS](https://apps.apple.com/in/app/canara-ai1/id6446065361)
   - 👤 Creator: Canara Bank
   - 📝 Description: All-in-one banking app by Canara Bank.
 
 - **CRED**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.dreamplug.androidapp)
+  - 🍎 [iOS](https://apps.apple.com/in/app/cred/id1423136202)
   - 👤 Creator: CRED
   - 🌐 [Company Website](https://cred.club)
   - 📝 Description: Credit card bill payments and rewards app.
@@ -54,6 +59,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-d"></a>D
 
 - **Dhan**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.dhan.live&hl=en_INq)
+  - 🍎 [iOS](https://apps.apple.com/in/app/dhan-stocks-etfs-ipos-more/id1595843240)
   - 👤 Creator: Dhan HQ
   - 📝 Description: Stock trading and investing app.
 
@@ -63,10 +70,14 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-f"></a>F
 
 - **Fampay**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.fampay.in)
+  - 🍎 [iOS](https://apps.apple.com/in/app/fampay/id1493620007)
   - 👤 Creator: Fampay
   - 📝 Description: Payments app for teens.
 
 - **Fyers**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.fyers.trader&hl=en_IN)
+  - 🍎 [iOS](https://apps.apple.com/in/app/fyers-markets/id1388332720)
   - 👤 Creator: Fyers
   - 📝 Description: Trading and investment platform.
 
@@ -80,10 +91,14 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 📝 Description: Gaming finance and tracking app.
 
 - **HDFC Payzapp**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.enstage.wibmo.hdfc)
+  - 🍎 [iOS](https://apps.apple.com/in/app/payzapp/id975335871)
   - 👤 Creator: HDFC Bank
   - 📝 Description: Digital payments and recharge app by HDFC.
 
 - **HDFC SKY**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.hdfcsky.app)
+  - 🍎 [iOS](https://apps.apple.com/in/app/hdfc-sky/id6472876106)
   - 👤 Creator: HDFC Securities
   - 📝 Description: Trading and investing app.
 
@@ -93,14 +108,20 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-i"></a>I
 
 - **ICICIDirect**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.icici.direct)
+  - 🍎 [iOS](https://apps.apple.com/in/app/icicidirect/id1501836667)
   - 👤 Creator: ICICI Securities
   - 📝 Description: Investment and trading platform.
 
 - **IDFC FIRST Bank**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.idfcfirstbank.cb)
+  - 🍎 [iOS](https://apps.apple.com/in/app/idfc-first-bank/id1291331251)
   - 👤 Creator: IDFC FIRST
   - 📝 Description: Digital banking app.
 
 - **INDmoney**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.finzoom.indmoney)
+  - 🍎 [iOS](https://apps.apple.com/in/app/indmoney/id1376515225)
   - 👤 Creator: INDmoney
   - 📝 Description: Track and manage finances, investments, and credit.
 
@@ -110,6 +131,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-j"></a>J
 
 - **Jiraaf**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.jiraaf.android)
+  - 🍎 [iOS](https://apps.apple.com/in/app/jiraaf/id1611141726)
   - 👤 Creator: Jiraaf
   - 📝 Description: Fixed income investment platform.
 
@@ -119,6 +142,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-k"></a>K
 
 - **Kotak Neo**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.msf.koatkneostox)
+  - 🍎 [iOS](https://apps.apple.com/in/app/kotak-neo/id1508199821)
   - 👤 Creator: Kotak Securities
   - 📝 Description: Mobile trading and investment app.
 
@@ -132,6 +157,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 📝 Description: Investment app by Motilal Oswal.
 
 - **My Adani Gas**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=adani.igas)
+  - 🍎 [iOS](https://apps.apple.com/in/app/my-adani-gas/id1518320772)
   - 👤 Creator: Adani
   - 📝 Description: Gas and utility management app.
 
@@ -141,10 +168,14 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-n"></a>N
 
 - **N J Ewealth**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.njwealth.ewealth)
+  - 🍎 [iOS](https://apps.apple.com/in/app/nj-ewelth/id1129796553)
   - 👤 Creator: NJ India Invest
   - 📝 Description: Wealth management platform.
 
 - **Nothing X**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.nothing.internet)
+  - 🍎 [iOS](https://apps.apple.com/in/app/nothing-x/id1628333262)
   - 👤 Creator: Nothing
   - 📝 Description: Companion app for Nothing audio products.
 
@@ -154,6 +185,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-p"></a>P
 
 - **Post Office**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.postbank.mobile)
+  - 🍎 [iOS](https://apps.apple.com/in/app/postinfo/id975920090)
   - 👤 Creator: India Post
   - 📝 Description: India Post banking and tracking app.
 
@@ -167,6 +200,8 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 📝 Description: Railway ticket booking and tracking app.
 
 - **Rupeezy**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.rupeezy.android)
+  - 🍎 [iOS](https://apps.apple.com/in/app/rupeezy/id1638801784)
   - 👤 Creator: Rupeezy
   - 📝 Description: Trading and investing platform.
 
@@ -176,14 +211,20 @@ Curated list of open-source Flutter apps for learning and inspiration.
 ### <a name="company-s"></a>S
 
 - **SBI Securities**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.sbismart)
+  - 🍎 [iOS](https://apps.apple.com/in/app/sbisecurities/id1202903337)
   - 👤 Creator: SBI Capital
   - 📝 Description: Trading platform by SBI.
 
 - **Sharekhan**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.sharekhan.trading)
+  - 🍎 [iOS](https://apps.apple.com/in/app/sharekhan/id363183554)
   - 👤 Creator: Sharekhan
   - 📝 Description: Investment and trading platform.
 
 - **Slice**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.slice.pay)
+  - 🍎 [iOS](https://apps.apple.com/in/app/slice-pay/id1229692294)
   - 👤 Creator: Slice
   - 📝 Description: Credit card and payments app for millennials.
 
@@ -207,26 +248,12 @@ Curated list of open-source Flutter apps for learning and inspiration.
 
 ---
 
-### <a name="personal-e"></a>E
+### <a name="personal-s"></a>S
 
-- **Expense Tracker**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.expense.tracker)
-  - 🍎 [iOS](https://apps.apple.com/app/id1234567891)
-  - 💻 [Repo](https://github.com/username/expense-tracker)
+- **SARA**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.sara.kietolx&hl=en_IN)
+  - 💻 [Repo](https://github.com/shivaAg04)
   - 👤 Creator: Shiva Agrahari
   - 🔗 [Creator LinkedIn](https://www.linkedin.com/in/shivaag04/)
-  - 📝 Description: Track daily expenses with intuitive charts and sync features.
-
-
----
-
-### <a name="personal-m"></a>M
-
-- **My Portfolio App**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.myportfolio.app)
-  - 🍎 [iOS](https://apps.apple.com/app/id1234567890)
-  - 💻 [Repo](https://github.com/username/portfolio)
-  - 👤 Creator: Shiva Agrahari
-  - 🔗 [Creator LinkedIn](https://www.linkedin.com/in/shivaag04/)
-  - 📝 Description: A beautiful personal portfolio built in Flutter.
+  - 📝 Description: SARA: Sell And Rent App for Kiet College Students
 
