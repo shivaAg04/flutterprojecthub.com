@@ -13,7 +13,7 @@ Curated list of open-source Flutter apps for learning and inspiration.
 
 ### <a name="company-5"></a>5
 
-- **5paisa**
+- **5paisa **
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.fivepaisa.trade)
   - 🍎 [iOS](https://apps.apple.com/in/app/5paisa-share-market-trading/id1075900182)
   - 👤 Creator: 5paisa
