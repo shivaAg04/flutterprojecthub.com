@@ -3,7 +3,7 @@ import '../model/project_data_model.dart';
 
 final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
-    name: '5paisa',
+    name: '5paisa ',
     imageUrl:
         "https://play-lh.googleusercontent.com/-MNspIooJf9VXXApEo8Z1eaokA5k5Be7TcgKeWSwBZGTRcsKZTVWkEcCzHq5ntAcsI0=s96-rw",
     industry: IndustryCategory.finance,
