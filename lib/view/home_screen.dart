@@ -23,11 +23,7 @@ class HomeScreen extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.fitbit_outlined, color: AppColor.white),
           onPressed: () {
-            /// push to app stats screen with material page route
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const AppStatsScreen()),
-            );
+            showFutureFeatureBottomSheet(context);
           },
         ),
         backgroundColor: AppColor.primaryColor,
