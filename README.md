@@ -182,17 +182,6 @@ Curated list of open-source Flutter apps for learning and inspiration.
 
 ---
 
-### <a name="company-p"></a>P
-
-- **Post Office**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.postbank.mobile)
-  - 🍎 [iOS](https://apps.apple.com/in/app/postinfo/id975920090)
-  - 👤 Creator: India Post
-  - 📝 Description: India Post banking and tracking app.
-
-
----
-
 ### <a name="company-r"></a>R
 
 - **Rail One**
@@ -221,12 +210,6 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 🍎 [iOS](https://apps.apple.com/in/app/sharekhan/id363183554)
   - 👤 Creator: Sharekhan
   - 📝 Description: Investment and trading platform.
-
-- **Slice**
-  - 📱 [Android](https://play.google.com/store/apps/details?id=com.slice.pay)
-  - 🍎 [iOS](https://apps.apple.com/in/app/slice-pay/id1229692294)
-  - 👤 Creator: Slice
-  - 📝 Description: Credit card and payments app for millennials.
 
 
 ---
