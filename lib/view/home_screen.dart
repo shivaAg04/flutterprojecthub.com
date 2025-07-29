@@ -9,6 +9,8 @@ import '../data/personal_app.dart';
 import '../viewModel/home_screen_viewmodel.dart';
 import '../widgets/fading_border_container.dart';
 import '../widgets/link_project.dart';
+import 'app_stats_screen.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,6 +20,16 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColor.primaryColor,
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.fitbit_outlined, color: AppColor.white),
+          onPressed: () {
+            /// push to app stats screen with material page route
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const AppStatsScreen()),
+            );
+          },
+        ),
         backgroundColor: AppColor.primaryColor,
         title: Consumer<HomeScreenViewmodel>(
           builder: (context, provider, _) => Text(
@@ -96,26 +108,25 @@ class HomeScreen extends StatelessWidget {
                                   children: [
                                     Row(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.start,
                                       children: [
                                         Container(
-                                          width: 80,
-                                          height: 80,
-                                          padding: const EdgeInsets.all(8.0),
+                                          width: 100,
+                                          height: 100,
+                                          padding: const EdgeInsets.all(16.0),
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(12),
                                             child: Image.network(
                                               project.imageUrl ??
                                                   "https://play-lh.googleusercontent.com/r2ZbsIr5sQ7Wtl1T6eevyWj4KS7QbezF7JYB9gxQnLWbf0K4kU7qaLNcJLLUh0WG-3pK=w480-h960-rw",
-                                              height: 70,
                                               fit: BoxFit.cover,
                                             ),
                                           ),
                                         ),
                                         Padding(
-                                          padding:
-                                              const EdgeInsets.only(right: 8.0),
+                                          padding: const EdgeInsets.symmetric(
+                                              horizontal: 8.0),
                                           child: Column(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
