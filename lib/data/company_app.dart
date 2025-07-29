@@ -109,7 +109,7 @@ final List<ProjectDataModel> companyProjects = [
   ),
   ProjectDataModel(
     name: 'Hash For Gamers',
-    imageUrl: '', // Not found
+    imageUrl: 'https://play-lh.googleusercontent.com/6Ecw8_oKN0kJpOrOdv0ovwl1OmFwxLzG1swOE9EOJArOe1nB80N3WbN2lfdmhcH86_s=w480-h960-rw', // Not found
     industry: IndustryCategory.gaming,
     androidLink: '',
     iosLink: '',
@@ -121,7 +121,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'HDFC Payzapp',
     imageUrl:
-        "https://play-lh.googleusercontent.com/Xu6AaP5Dk_rLjMJwbKiaCtrbH2immUWhAvJe6GYTotNlCB0zAJUvEagYaW9rUE9UreQ=s96-rw",
+       "https://play-lh.googleusercontent.com/WLXdqzW5k_dD1NNODPwoAcAI58RA2Wgf4crwPRegcbQUViYW18xcBZDeA-ggBfsv26g=w480-h960-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.enstage.wibmo.hdfc',
@@ -134,7 +134,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'HDFC SKY',
     imageUrl:
-        "https://play-lh.googleusercontent.com/-QK41nCpRUQK23IEqpEp5G87vN7VF6vmCTkoZn-NV3z53k_XZGguWD7ur5q9utYdAC4=s96-rw",
+        "https://play-lh.googleusercontent.com/ThYBDYuqEVIYRykl6bX_fyhN7UIUU4yAVSiIHHY8S9-RSsynBgQoXNIJFZJotTlp1a5z=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.hdfcsky.app',
@@ -147,7 +147,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'ICICIDirect',
     imageUrl:
-        "https://play-lh.googleusercontent.com/S2U-EwM72sUVSS6vMHIBDBKCLrfK5JY3GGxDeQFoxxgSeAgOmGKYhMYrEphWq1z48UQ=s96-rw",
+        "https://play-lh.googleusercontent.com/RqpvFiLwp9Vz8dY3QZplf7IZ0ZzCCjH9CVXlO61FIrCUQQCDfSrvPufjDw6sfbjTKg=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.icici.direct',
@@ -160,7 +160,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'IDFC FIRST Bank',
     imageUrl:
-        "https://play-lh.googleusercontent.com/mp8u5PE1qWZ6jYBzklM6tjiRo1Uc87gAQkuOPC49nF5MGjPe7O2WwDY6C1Tgk9EouJQ=s96-rw",
+        "https://play-lh.googleusercontent.com/Df9ERcW1mhjmDxiEAwpIftET-J56XVrN5HB6dlLlT7jyjRIquGN1xTGxwyMUkPZbANP1=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.idfcfirstbank.cb',
@@ -173,7 +173,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'INDmoney',
     imageUrl:
-        "https://play-lh.googleusercontent.com/MHIlJRiaECfBmNLzCtVa9CGntjPxUAh5l5lqehxhYCaa84QvqPYdXVsPxJ7iQojHZFk=s96-rw",
+        "https://play-lh.googleusercontent.com/aTgKh70bgIYCMvMdkcsDVNYi0XAnNPd0JXEu5pO20z1m2HhWiiIMX_ulwsCFK3F24d0=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.finzoom.indmoney',
@@ -186,7 +186,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Jiraaf',
     imageUrl:
-        "https://play-lh.googleusercontent.com/Ov6OkZpbc4J7BCw2oJlBqKKEKoDj_Q7ex2CnJW2WfafaFhGMu2ZVgkMQjvyq5T1YPw=s96-rw",
+        "https://play-lh.googleusercontent.com/rNTeAUqjuIihbsKf7N1Lxnkdci5PfNcd9dHZyIWpLQxupWfSl2V6wFAxRFQ94k9Q5i4=w480-h960-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.jiraaf.android',
@@ -199,7 +199,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Kotak Neo',
     imageUrl:
-        "https://play-lh.googleusercontent.com/uXo8Yk8Q4ay7MyaNoSWnGKYorqQ_JyYv9Tdk_bA1WDuGXRpUz8q-Yq8BRGPT4rGTBQU=s96-rw",
+        "https://play-lh.googleusercontent.com/z0vvYS6PM9lwFsU_7h0sxuZtm8w5UDfFifFYUSlCqVk8i0xob2ERvFIgI1mU66PCLD4=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.msf.koatkneostox',
@@ -212,7 +212,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Motilal Oswal Riise',
     imageUrl:
-        '', // No separate Riise app; standard Motilal Oswal Mobile Trading app icon: https://play-lh.googleusercontent.com/y35tMxH0NE0kSPjtjH72AHJJKdGkF_onR4AJw91n_ohYmmPZChCnqZTj_jWTy5yxiHI=s96-rw
+        'https://play-lh.googleusercontent.com/Gplqfz6kpTaFbXyNHNP2KRc7_t8iKIUH6Y_QMQSjwSCaKS3-bAxJgVyfMrjS2PhNkg=w480-h960-rw', // No separate Riise app; standard Motilal Oswal Mobile Trading app icon: https://play-lh.googleusercontent.com/y35tMxH0NE0kSPjtjH72AHJJKdGkF_onR4AJw91n_ohYmmPZChCnqZTj_jWTy5yxiHI=s96-rw
     industry: IndustryCategory.finance,
     androidLink: '',
     iosLink: '',
@@ -224,7 +224,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'My Adani Gas',
     imageUrl:
-        "https://play-lh.googleusercontent.com/kbh3nAKB04dxte1jRnxXTJVaOj_zL2Ymf_j2hR0hxIQYVSYk23VRWDl9d7GTtJK6PKc=s96-rw",
+        "https://play-lh.googleusercontent.com/WFkKIEMDItwIoiMvHg25IojcTNbbyqukKZxKgxAgVNElVr6Lvf_DKqNbhEUUsEd3ufNV=w480-h960-rw",
     industry: IndustryCategory.utilities,
     androidLink: 'https://play.google.com/store/apps/details?id=adani.igas',
     iosLink: 'https://apps.apple.com/in/app/my-adani-gas/id1518320772',
@@ -236,7 +236,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'N J Ewealth',
     imageUrl:
-        "https://play-lh.googleusercontent.com/EJHzr_TLq4b961DCrIJ1ItNZjX24Fn-Bru4zqwBnpQipG9nekrkfPLpT90uYFbT3Cc0=s96-rw",
+        "https://play-lh.googleusercontent.com/t47THUMTc8DVnzyEGiZeK9m0gmOf4KnDwnhsFTbS9WlYSrKve21FPBRURLF7MWsz6A=w480-h960-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.njwealth.ewealth',
@@ -249,7 +249,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Nothing X',
     imageUrl:
-        "https://play-lh.googleusercontent.com/lPe1rOpT-5gGy5lbzNl9Y-SrsB4w9GDanuK3rx1K6RylTMnhjNRXiSRduAJMJtiUaOw=s96-rw",
+        "https://play-lh.googleusercontent.com/aIZ-ZHhWl3Pq86g1hq8gWxLF4LukJZU4UXB7G-y0Nf7z2hsnbv1Bfs41n5PVUJFWPyg=w480-h960-rw",
     industry: IndustryCategory.utilities,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.nothing.internet',
@@ -259,22 +259,10 @@ final List<ProjectDataModel> companyProjects = [
     companyLink: '',
     description: 'Companion app for Nothing audio products.',
   ),
-  ProjectDataModel(
-    name: 'Post Office',
-    imageUrl:
-        "https://play-lh.googleusercontent.com/lMfnoYk1dRr17arPAgxHdcwbwgyB5mBD43gYw4JDK9-Kr8nTGPNVhdvZKMOo8_ObDg=s96-rw",
-    industry: IndustryCategory.government,
-    androidLink:
-        'https://play.google.com/store/apps/details?id=com.postbank.mobile',
-    iosLink: 'https://apps.apple.com/in/app/postinfo/id975920090',
-    repoLink: '',
-    creatorName: 'India Post',
-    companyLink: '',
-    description: 'India Post banking and tracking app.',
-  ),
+  
   ProjectDataModel(
     name: 'Rail One',
-    imageUrl: '', // Could not find official Play Store app
+    imageUrl: 'https://play-lh.googleusercontent.com/ICK_zuIjVB-M3Lrj7b3ZhvnpA8UiFmJRqSCk5hI-CfPZY9HC63e2_s1vP94zzCr76w=w480-h960-rw', // Could not find official Play Store app
     industry: IndustryCategory.transportation,
     androidLink: '',
     iosLink: '',
@@ -286,7 +274,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Rupeezy',
     imageUrl:
-        "https://play-lh.googleusercontent.com/56VlzLUUsfW1t8QQhQyVK_OM7PLT9GIujUTzAwRrPpdO5nsiQ0HBe4w4v3-43nTuolE=s96-rw",
+        "https://play-lh.googleusercontent.com/PNbBjzk1JzNXWjJ-aNCW4JFz5WvjgP5w27TAWBxgLd1TSc3W1oK__Yz1qjAz2SD3-gE=s96-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.rupeezy.android',
@@ -299,7 +287,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'SBI Securities',
     imageUrl:
-        "https://play-lh.googleusercontent.com/HjsbfL4_EySUAMwKighI3U9E3O6dr9fNWQkU0wYUtfZkQwB4yVch8aUuCMMuh62GR2o=s96-rw",
+        "https://play-lh.googleusercontent.com/Frf_WqnD4SEBXBHtfsok-G_mv5nWrHU7dQxEf3DMcSfsib4xYe9NFUw9_lsc5NdQIb5D=w480-h960-rw",
     industry: IndustryCategory.finance,
     androidLink: 'https://play.google.com/store/apps/details?id=com.sbismart',
     iosLink: 'https://apps.apple.com/in/app/sbisecurities/id1202903337',
@@ -311,7 +299,7 @@ final List<ProjectDataModel> companyProjects = [
   ProjectDataModel(
     name: 'Sharekhan',
     imageUrl:
-        "https://play-lh.googleusercontent.com/6OAt_I35Es9g6IedymM7Nr6zEkzyU9ceCDSZGOZD_URLjrHxyRJvB_SJ52yDLZvw_yI=s96-rw",
+        "https://play-lh.googleusercontent.com/BpS9OqJXeOPBIjibSuj7xqzrcVpuFaF3zzdrcsVjGT0hclybcqw2VDel94chDQOLBYQ=w480-h960-rw",
     industry: IndustryCategory.finance,
     androidLink:
         'https://play.google.com/store/apps/details?id=com.sharekhan.trading',
@@ -321,21 +309,10 @@ final List<ProjectDataModel> companyProjects = [
     companyLink: '',
     description: 'Investment and trading platform.',
   ),
-  ProjectDataModel(
-    name: 'Slice',
-    imageUrl:
-        "https://play-lh.googleusercontent.com/k0y_Yyra4JSmYZMKVpV7vqLGyII8z9LJmlA60eUqNJh2kLYcK9PZp8rlb3W_xPDqixs=s96-rw",
-    industry: IndustryCategory.finance,
-    androidLink: 'https://play.google.com/store/apps/details?id=com.slice.pay',
-    iosLink: 'https://apps.apple.com/in/app/slice-pay/id1229692294',
-    repoLink: '',
-    creatorName: 'Slice',
-    companyLink: '',
-    description: 'Credit card and payments app for millennials.',
-  ),
+ 
   ProjectDataModel(
     name: 'Timepay',
-    imageUrl: '', // No Play Store icon available
+    imageUrl: 'https://play-lh.googleusercontent.com/kphN8yrHnSVIOBJMOg2C45YZ7-c62FdZPJwTpeGyR1c0LwsgqRP-nL8WRrvC8ptcbOhk=w480-h960-rw', // No Play Store icon available
     industry: IndustryCategory.finance,
     androidLink: '',
     iosLink: '',
