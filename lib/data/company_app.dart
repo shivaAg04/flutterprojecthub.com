@@ -321,4 +321,15 @@ final List<ProjectDataModel> companyProjects = [
     companyLink: '',
     description: 'Payments and finance management app.',
   ),
+   ProjectDataModel(
+    name: 'SG Chess',
+    imageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/9d/13/f69d13a0-21aa-3552-b56c-b32da14ce963/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/460x0w.webp', // No Play Store icon available
+    industry: IndustryCategory.gaming,
+    androidLink: 'https://play.google.com/store/apps/details?id=com.sgchess.game&hl=en_IN',
+    iosLink: 'https://apps.apple.com/in/app/sg-chess/id6739932129',
+    repoLink: '',
+    creatorName: 'SG Sports',
+    companyLink: 'https://sgchess.in/',
+    description: 'Master the game, challenge your rivals, and turn strategy into big Prizes.',
+  ),
 ];
