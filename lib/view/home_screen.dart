@@ -147,7 +147,7 @@ class HomeScreen extends StatelessWidget {
                                                   Text(
                                                     project.industry.name,
                                                     style: TextStyle(
-                                                      color: AppColor.black,
+                                                      color: AppColor.white,
                                                       fontSize: 12,
                                                     ),
                                                   ),
