@@ -205,6 +205,13 @@ Curated list of open-source Flutter apps for learning and inspiration.
   - 👤 Creator: SBI Capital
   - 📝 Description: Trading platform by SBI.
 
+- **SG Chess**
+  - 📱 [Android](https://play.google.com/store/apps/details?id=com.sgchess.game&hl=en_IN)
+  - 🍎 [iOS](https://apps.apple.com/in/app/sg-chess/id6739932129)
+  - 👤 Creator: SG Sports
+  - 🌐 [Company Website](https://sgchess.in/)
+  - 📝 Description: Master the game, challenge your rivals, and turn strategy into big Prizes.
+
 - **Sharekhan**
   - 📱 [Android](https://play.google.com/store/apps/details?id=com.sharekhan.trading)
   - 🍎 [iOS](https://apps.apple.com/in/app/sharekhan/id363183554)
