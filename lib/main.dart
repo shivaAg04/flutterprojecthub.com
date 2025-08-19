@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           double maxWidth = kIsWeb ? 420 : constrain.maxWidth;
           return Center(
             child: SizedBox(
-              width: constrain.maxWidth,
+              width: maxWidth,
               child: MaterialApp(
                 title: 'flutterprojecthub.com',
                 home: HomeScreen(),
