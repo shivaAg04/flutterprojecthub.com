@@ -5,28 +5,29 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+      
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.16.5'
-
+      
       - name: Install dependencies
         run: flutter pub get
-
+      
       - name: Build Flutter web
-        run: flutter build web --release --base-href="/"
-
+        run: flutter build web --release --base-href="/flutterprojecthub.com/"
+      
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/web
-          cname: flutterprojecthub.live
