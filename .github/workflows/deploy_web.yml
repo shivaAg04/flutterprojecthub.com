@@ -24,10 +24,11 @@ jobs:
         run: flutter pub get
       
       - name: Build Flutter web
-        run: flutter build web --release --base-href="/flutterprojecthub.com/"
+        run: flutter build web --release --base-href="/"
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/web
+          cname: flutterprojecthub.com
